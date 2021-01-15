@@ -1,0 +1,448 @@
+<DOCTYPE html>
+<head>
+<title>Play Bingo Online Now!</title>
+</head>
+<body>
+<style>
+.headDiv {
+    position : relative;
+    width    : auto;
+    height   : auto;
+    left     : 0%;
+    top      : 0%;
+    background-color: #FE9A2E;
+   }
+</style>
+<div class=headDiv>
+<audio id="kahootmusic.mp3">
+  <source src="kahootmusic.mp3" type="audio/mpeg">
+</audio>
+<script>
+var audio = document.getElementById("kahootmusic.mp3");
+function playAudio() {
+  audio.play();
+}
+
+function pauseAudio() {
+  audio.pause();
+}
+</script>
+<script type="text/javascript">
+			function showHideDiv(ele) {
+				var srcElement = document.getElementById(ele);
+				if (srcElement != null) {
+					if (srcElement.style.display == "block") {
+						srcElement.style.display = 'none';
+					}
+					else {
+						srcElement.style.display = 'block';
+					}
+					return false;
+				}
+			}
+		</script>
+<h1 align="center">Play Bingo online now!</h1>
+</div>
+<style>
+.bingoCardDiv {
+   position : relative;
+   width : 750;
+   height : 750;
+   background-color : #FE642E;
+   margin : auto; 
+}
+#bingoCardCorners {
+  border-radius : 30px;
+  padding : auto;
+}
+</style>
+<div class=bingoCardDiv id="bingoCardCorners">
+<style>
+.bingoColumn0 {
+  position : relative;
+  width : 144px;
+  height : 745px;
+  margin : auto;
+  border-style : solid;
+  float : left;
+}
+
+.bingoBox {
+  position : relative;
+  width : 141px;
+  height : 127px;
+  margin : auto;
+  border-style : solid;
+  float : left;
+}
+.sidenav {
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #2E9AFE;
+    overflow-x: hidden;
+    padding-top: 2px;
+    padding-right: 0px;
+font-size: 25px;
+}
+</style>
+<script>
+function colorChange0() {
+  document.getElementById("box1").style.color = "#A9F5F2";
+}
+function colorChange1() {
+  document.getElementById("box2").style.color = "#A9F5F2";
+}
+function colorChange2() {
+  document.getElementById("box3").style.color = "#A9F5F2";
+}
+function colorChange3() {
+  document.getElementById("box4").style.color = "#A9F5F2";
+}
+function colorChange4() {
+  document.getElementById("box5").style.color = "#A9F5F2";
+}
+function colorChange5() {
+  document.getElementById("box6").style.color = "#A9F5F2";
+}
+function colorChange6() {
+  document.getElementById("box7").style.color = "#A9F5F2";
+}
+function colorChange7() {
+  document.getElementById("box8").style.color = "#A9F5F2";
+}
+function colorChange8() {
+  document.getElementById("box9").style.color = "#A9F5F2";
+}
+function colorChange9() {
+  document.getElementById("box10").style.color = "#A9F5F2";
+}
+function colorChange10() {
+  document.getElementById("box11").style.color = "#A9F5F2";
+}
+function colorChange11() {
+  document.getElementById("box12").style.color = "#A9F5F2";
+}
+function colorChange12() {
+  document.getElementById("box13").style.color = "#A9F5F2";
+}
+function colorChange13() {
+  document.getElementById("box14").style.color = "#A9F5F2";
+}
+function colorChange14() {
+  document.getElementById("box15").style.color = "#A9F5F2";
+}
+function colorChange15() {
+  document.getElementById("box16").style.color = "#A9F5F2";
+}
+function colorChange16() {
+  document.getElementById("box17").style.color = "#A9F5F2";
+}
+function colorChange17() {
+  document.getElementById("box18").style.color = "#A9F5F2";
+}
+function colorChange18() {
+  document.getElementById("box19").style.color = "#A9F5F2";
+}
+function colorChange19() {
+  document.getElementById("box20").style.color = "#A9F5F2";
+}
+function colorChange20() {
+  document.getElementById("box21").style.color = "#A9F5F2";
+}
+function colorChange21() {
+  document.getElementById("box22").style.color = "#A9F5F2";
+}
+function colorChange22() {
+  document.getElementById("box23").style.color = "#A9F5F2";
+}
+function colorChange23() {
+  document.getElementById("box24").style.color = "#A9F5F2";
+}
+function colorChange24() {
+  document.getElementById("box25").style.color = "#A9F5F2";
+}
+function randomNumber0() {
+  var a = Math.floor((Math.random() * 15) + 1);
+  document.getElementById("number1").innerHTML = a;
+}
+function randomNumber1() {
+  var b = Math.floor((Math.random() * 15) + 1);
+  document.getElementById("number2").innerHTML = b;
+}
+function randomNumber2() {
+  var c = Math.floor((Math.random() * 15) + 1);
+  document.getElementById("number3").innerHTML = c;
+}
+
+function randomNumber3() {
+  var d = Math.floor((Math.random() * 15) + 1);
+  document.getElementById("number4").innerHTML = d;
+}
+function randomNumber4() {
+  var e = Math.floor((Math.random() * 15) + 1);
+  document.getElementById("number5").innerHTML = e;
+}
+function randomNumber5() {
+  var f = Math.floor((Math.random() * 15) +16);
+  document.getElementById("number6").innerHTML = f;
+}
+function randomNumber6() {
+  var g = Math.floor((Math.random() * 15) + 16);
+  document.getElementById("number7").innerHTML = g;
+}
+function randomNumber7() {
+  var h = Math.floor((Math.random() * 15) + 16);
+  document.getElementById("number8").innerHTML = h;
+}
+function randomNumber8() {
+  var i = Math.floor((Math.random() * 15) + 16);
+  document.getElementById("number9").innerHTML = i;
+}
+function randomNumber9() {
+  var j = Math.floor((Math.random() * 15) + 16);
+  document.getElementById("number10").innerHTML = j;
+}
+function randomNumber10() {
+  var k = Math.floor((Math.random() * 15) + 31);
+  document.getElementById("number11").innerHTML = k;
+}
+function randomNumber11() {
+  var l = Math.floor((Math.random() * 15) + 31);
+  document.getElementById("number12").innerHTML = l;
+}
+function randomNumber12() {
+  var m = Math.floor((Math.random() * 15) + 31);
+  document.getElementById("number13").innerHTML = m;
+}
+function randomNumber13() {
+  var n = Math.floor((Math.random() * 15) + 31);
+  document.getElementById("number14").innerHTML = n;
+}
+function randomNumber14() {
+  var o = Math.floor((Math.random() * 15) + 31);
+  document.getElementById("number15").innerHTML = o;
+}
+function randomNumber15() {
+  var p = Math.floor((Math.random() * 15) + 46);
+  document.getElementById("number16").innerHTML = p;
+}
+function randomNumber16() {
+  var q = Math.floor((Math.random() * 15) + 46);
+  document.getElementById("number17").innerHTML = q;
+}
+function randomNumber17() {
+  var r = Math.floor((Math.random() * 15) + 46);
+  document.getElementById("number18").innerHTML = r;
+}
+function randomNumber18() {
+  var s = Math.floor((Math.random() * 15) + 46);
+  document.getElementById("number19").innerHTML = s;
+}
+function randomNumber19() {
+  var t = Math.floor((Math.random() * 15) + 46);
+  document.getElementById("number20").innerHTML = t;
+}
+function randomNumber20() {
+  var u = Math.floor((Math.random() * 15) + 61);
+  document.getElementById("number21").innerHTML = u;
+}
+function randomNumber21() {
+  var v = Math.floor((Math.random() * 15) + 61);
+  document.getElementById("number22").innerHTML = v;
+}
+function randomNumber22() {
+  var w = Math.floor((Math.random() * 15) + 61);
+  document.getElementById("number23").innerHTML = w;
+}
+function randomNumber23() {
+  var x = Math.floor((Math.random() * 15) + 61);
+  document.getElementById("number24").innerHTML = x;
+}
+function randomNumber24() {
+  var y = Math.floor((Math.random() * 15) + 61);
+  document.getElementById("number25").innerHTML = y;
+}
+setTimeout(randomNumber0, 1)
+setTimeout(randomNumber1, 100)
+setTimeout(randomNumber2, 200)
+setTimeout(randomNumber3, 300)
+setTimeout(randomNumber4, 400)
+setTimeout(randomNumber5, 500)
+setTimeout(randomNumber6, 600)
+setTimeout(randomNumber7, 700)
+setTimeout(randomNumber8, 800)
+setTimeout(randomNumber9, 900)
+setTimeout(randomNumber10, 1000)
+setTimeout(randomNumber11, 1100)
+setTimeout(randomNumber12, 1200)
+setTimeout(randomNumber13, 1300)
+setTimeout(randomNumber14, 1400)
+setTimeout(randomNumber15, 1500)
+setTimeout(randomNumber16, 1600)
+setTimeout(randomNumber17, 1700)
+setTimeout(randomNumber18, 1800)
+setTimeout(randomNumber19, 1900)
+setTimeout(randomNumber20, 2000)
+setTimeout(randomNumber21, 2100)
+setTimeout(randomNumber22, 2200)
+setTimeout(randomNumber23, 2300)
+setTimeout(randomNumber24, 2400)
+function sort0() {
+  if (a === b || b === c || c === d || d ===e || a === c || a === d || a === e || b === d || b === e || c === e) {
+setTimeout(randomNumber0, 500)
+setTimeout(randomNumber1, 500)
+setTimeout(randomNumber2, 500)
+setTimeout(randomNumber3, 500)
+setTimeout(randomNumber4, 500)
+setTimeout(randomNumber5, 500)
+setTimeout(randomNumber6, 500)
+setTimeout(randomNumber7, 500)
+setTimeout(randomNumber8, 500)
+setTimeout(randomNumber9, 500)
+setTimeout(randomNumber10, 500)
+setTimeout(randomNumber11, 500)
+setTimeout(randomNumber12, 500)
+setTimeout(randomNumber13, 500)
+setTimeout(randomNumber14, 500)
+setTimeout(randomNumber15, 500)
+setTimeout(randomNumber16, 500)
+setTimeout(randomNumber17, 500)
+setTimeout(randomNumber18, 500)
+setTimeout(randomNumber19, 500)
+setTimeout(randomNumber20, 500)
+setTimeout(randomNumber21, 500)
+setTimeout(randomNumber22, 500)
+setTimeout(randomNumber23, 500)
+setTimeout(randomNumber24, 500)
+  }
+}
+setTimeout(sort0, 500)
+</script>
+<div class=bingoColumn0 id="gameBoard">
+<h1 align="center">B</h1>
+
+<div class=bingoBox id="box1" onclick="colorChange0()">
+<h1 align="center" id=number1 onload="randomNumber0()"></div>
+
+<div class=bingoBox id="box2" onclick="colorChange1()">
+<h1 align="center" id=number2 onload="randomNumber1()"></div>
+
+<div class=bingoBox id="box3" onclick="colorChange2()">
+<h1 align="center" id="number3" onload="randomNumber2()"></div>
+
+<div class=bingoBox id="box4" onclick="colorChange3()">
+<h1 align="center" id=number4 onload="randomNumber3()"></div>
+
+<div class=bingoBox id="box5" onclick="colorChange4()">
+<h1 align="center" id=number5 onload="randomNumber4()"></div>
+</div>
+<div class=bingoColumn0 id="gameBoard">
+<h1 align="center">I</h1>
+
+<div class=bingoBox id="box6" onclick="colorChange5()">
+<h1 align="center" id=number6 onload="randomNumber6()"></div>
+
+<div class=bingoBox id="box7" onclick="colorChange6()">
+<h1 align="center" id=number7 onload="randomNumber6()"></div>
+
+<div class=bingoBox id="box8" onclick="colorChange7()">
+<h1 align="center" id=number8 onload="randomNumber7()"></div>
+
+<div class=bingoBox id="box9" onclick="colorChange8()">
+<h1 align="center" id=number9 onload="randomNumber8()"></div>
+
+<div class=bingoBox id="box10" onclick="colorChange9()">
+<h1 align="center" id=number10 onload="randomNumber9()"></div>
+</div>
+<div class=bingoColumn0 id="gameBoard">
+<h1 align="center">N</h1>
+<div class=bingoBox id="box11" onclick="colorChange10()">
+<h1 align="center" id=number11 onload="randomNumber10()"></div>
+
+<div class=bingoBox id="box12" onclick="colorChange11()">
+<h1 align="center" id=number12 onload="randomNumber11()"></div>
+
+<div class=bingoBox id="box13" onclick="colorChange12()">
+<h1 align="center">FREE</div>
+
+<div class=bingoBox id="box14" onclick="colorChange13()">
+<h1 align="center" id=number14 onload="randomNumber13()"></div>
+
+<div class=bingoBox id="box15" onclick="colorChange14()">
+<h1 align="center" id=number15 onload="randomNumber14()"></div>
+</div>
+<div class=bingoColumn0 id="gameBoard">
+<h1 align="center">G</h1>
+
+<div class=bingoBox id="box16" onclick="colorChange15()">
+<h1 align="center" id=number16 onload="randomNumber15()"></div>
+
+<div class=bingoBox id="box17" onclick="colorChange16()">
+<h1 align="center" id=number17 onload="randomNumber16()"></div>
+
+<div class=bingoBox id="box18" onclick="colorChange17()">
+<h1 align="center" id=number18 onload="randomNumber17()"></div>
+
+<div class=bingoBox id="box19" onclick="colorChange18()">
+<h1 align="center" id=number19 onload="randomNumber18()"></div>
+
+<div class=bingoBox id="box20" onclick="colorChange19()">
+<h1 align="center" id=number20 onload="randomNumber19()"></div>
+</div>
+<div class=bingoColumn0 id="gameBoard">
+<h1 align="center">O</h1>
+
+<div class=bingoBox id="box21" onclick="colorChange20()">
+<h1 align="center" id=number21 onload="randomNumber20()"></div>
+
+<div class=bingoBox id="box22" onclick="colorChange21()">
+<h1 align="center" id=number22 onload="randomNumber21()"></div>
+
+<div class=bingoBox id="box23" onclick="colorChange22()">
+<h1 align="center" id=number23 onload="randomNumber22()"></div>
+
+<div class=bingoBox id="box24" onclick="colorChange23()">
+<h1 align="center" id=number24 onload="randomNumber23()"></div>
+
+<div class=bingoBox id="box25" onclick="colorChange24()">
+<h1 align="center" id=number25 onload="randomNumber24()"></div>
+</div>
+<style>
+.controlDiv {
+ 
+}
+</style
+<div>
+<style>
+.startGame {
+  border-radius : 15px;
+  text-align: center;
+  background-color : #2E64FE;
+  padding: 15px 32px;
+  color : white;
+  font-size : 20px;
+  float : left;
+  cursor : pointer;
+  margin : auto;
+}
+.startGame:hover {
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+</style>
+<a onclick="playAudio()" class=startGame>Start Game!</a>
+<a onclick="pauseAudio()" class=startGame>Stop Game!</a>
+</div>
+<div class=sidenav>
+<h1 align="center">How to play</h1>
+<h3 align="center">Wait for the board to load</h3>
+<h3 align="center">Press "Start Game" to begin playing (with music)</h3>
+<h3 align="center">If two boxes have the same number, refresh the page</h3>
+<h3 align="center">Click on a box when the number is called and it will outline</h3>
+<h4 align="center">**Duplicated numbers will be fixed in V2 or V3 of the game**</h3>
+<h3 align="center">HAVE FUN!!</h2> 
+</div>
+</body>
