@@ -1,5 +1,5 @@
 # website-data
-This is where the website code is stored and updated.
+This is where the website code is stored and updated. If you are here for our Sharktank website, please navigate to the /sharktank directory, located off the main branch.
 
 # NOTICE
 __This website is published universally and any update to it will cause the change to be rolled out worldwide. Please make sure that everything you update is stuff you want posted on the internet.__
