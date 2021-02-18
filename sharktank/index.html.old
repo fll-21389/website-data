@@ -1,0 +1,305 @@
+<DOCTYPE html>
+<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<title>Safe Steps Webstore</title>
+<div id="pagewrap" background="#A9F5F2">
+<head>
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<div class=fade-in>
+<body #style="background-image: url('media/cool-background-1.png')">
+<style>
+@keyframes fadeIn
+  to { 
+     opacity: 1; }
+.fade-in {
+  animation: fadeIn 1.0s ease forwards;
+ }
+@keyframes fadeIn{
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+.fade-in {
+  animation: fadeIn ease 2.5s;
+  -webkit-animation: fadeIn ease 2.5s;
+  -moz-animation: fadeIn ease 2.5s;
+  -o-animation: fadeIn ease 2.5s;
+  -ms-animation: fadeIn ease 2.5s;
+}
+body
+{
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+}
+#particles-js
+{
+	height: 100%;
+	background: #f00;
+}
+</style>
+
+<div class=headDiv>
+<style>
+.headDiv {
+    position : relative;
+    width    : auto;
+    height   : auto;
+    left     : 0%;
+    top      : 0%;
+    //background-image: url('media/cool-background-1.png')
+   }
+</style>
+<a href="/extras/bingo">
+<button href="/extras/bingo" align=left style="background-color: aqua"></button>
+</a>
+<h1 style="text-align:center">
+UniSystems Solutions
+</h1>
+<h2 style="text-align:center">
+The Official UniSystems Website and Webstore
+</h2>
+</div>
+<div class=headerDiv>
+<style>
+.homeDiv {
+    position : relative;
+    width    : auto;
+    height   : auto;
+    left     : 37%;
+    top      : 13%;
+    float    : left;
+   }
+</style>
+<div class=homeDiv>
+<style>
+.buttonHome {
+  background-color: #4CAF50;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  top: 327
+  left: 650px;
+  height: 15px;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  align: center;
+}
+.buttonHome:hover {
+  background-color: 0B610B;
+  color: white
+}
+</style>
+<a href="/sharktank"><span class="buttonHome">Home</span></a>
+</div>
+<style>
+.ProductDiv {
+    position : relative;    
+    width    : auto;
+    height   : auto;
+    left     : 39%;
+    top      : 13%;
+    float    : left;
+   }
+</style>
+<div class=productDiv>
+<style>
+.buttonProduct {
+  background-color: #4CAF50;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  top: 327
+  left: 650px;
+  height: 15px;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  align: center;
+}
+.buttonProduct:hover {
+  background-color: 0B610B;
+  color: white
+}
+</style>
+<a href="/sharktank/products"><span class="buttonProduct">Products</span></a>
+</div>
+<style>
+.aboutDiv {
+    position : relative;
+    width    : auto;
+    height   : auto;
+    left     : 41%;
+    top      : 13%;
+    float    : left;
+   }
+</style>
+<div class=aboutDiv>
+<style>
+.buttonAbout {
+  background-color: #4CAF50;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  top: 327
+  left: 650px;
+  height: 15px;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  align: center;
+}
+.buttonAbout:hover {
+  background-color: 0B610B;
+  color: white
+}
+</style>
+<a href="/sharktank/about"><span class="buttonAbout">About Us</span></a>
+</div>
+<style>
+.contactDiv {
+    position : relative;
+    width    : auto;
+    height   : auto;
+    left     : 43%;
+    top      : 13%;
+    float    : left
+   }
+</style>
+<div class=contactDiv>
+<style>
+.buttonContact {
+  background-color: #4CAF50;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  top: 327;
+  left: 650px;
+  height: 15px;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  align: center;
+}
+.buttonContact:hover {
+  background-color: 0B610B;
+  color: white
+}
+</style>
+<a href="/sharktank/contact"><span class="buttonContact">Contact Us</span></a>
+</div>
+<br>
+<style>
+.infoDiv0 {
+     position : static;
+     width : auto;
+     height : 300px;
+     align : center;
+     left : 45%;
+     top : 30%;
+     background-color : #BCF5A9;
+}
+.infoDiv0:hover {
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+}
+</style>
+<a href="/sharktank/products">
+<div class=infoDiv0>
+<img src="IceEater.png" alt="The Ice Eater" width="500" height="300" style="float: left;">
+<h1 align=center>New products keep you and your customers safer than ever in these COVID times!</h1>
+<p align=center>With more products than ever, you can easily find something for your needs! Check out our products page to find more!</p>
+</div>
+</a>
+<style>
+.infoDiv1 {
+     position : static;
+     width : auto;
+     height : 300px;
+     align : center;
+     left : 45%;
+     top : 30%;
+     background-color : #A9A9F5;
+}
+
+.infoDiv1:hover {
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+}
+</style>
+<a href="/about.html">
+<div class=infoDiv1>
+<img src="BusinessPhilosophy.jpg" alt="About the business" width="500" height="300" style="float: right">
+<h1 align=center class=productworkTitle>Introducing MultiLink&#8482</h1>
+<h3 align=center>A new, easy technology to link multiple machines together for your busy business!</h3>
+<p align=center>However many fountains you need, MultiLink has you covered!</p>
+</div>
+</a>
+<div id="particles-js"></div>
+<script type="text/javascript" src="particles.js"></script>
+<script type="text/javascript" src="app.js"></script>
+</body>
+<style>
+.copyrightDiv {
+    position : relative;
+    width    : 550px;
+    height   : auto;
+    left     : 36%;
+    top      : 89%;
+   }
+</style>
+<div class=copyrightDiv>
+<h3>DISCLAIMER: THIS WEBSITE IS FOR A SCHOOL PROJECT</h3>
+</style>
+</div>
+</div>
